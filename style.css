@@ -1,0 +1,195 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topLinks {
+    padding: 6px;
+    text-align: right;
+}
+.signIn {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(138, 180, 248);
+    border: none;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 9px;
+    padding-bottom: 9px; 
+    border-radius: 4px;   
+    cursor: pointer;
+    background-size: auto;
+    color: rgb(32, 33, 36);
+    transition: background-color 0.15s ease;
+}
+.signIn:hover{
+    background-color: rgb(150, 188, 248);
+}
+.gmailLink {
+    margin-right: 10px;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    display: inline;
+}
+   
+.gmailLink:hover {
+    text-decoration: underline;
+}
+
+.imageLink {
+    margin-right: 10px;
+    display: inline;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+.imageLink:hover {
+    text-decoration: underline;
+}
+
+.gLogo {
+    
+}
+.logoDiv {
+    display: flex;
+    object-fit: contain;
+    object-position: center bottom;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchDiv {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.searchDiv .searchBox {
+  width: 500px;
+  padding: 13px;
+  padding-left: 45px;
+  padding-right: 60px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  background: none;
+  color: #ccc;
+  font-size: 20px;
+}
+.Icons {
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    width: 570px;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+.buttons {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.gsBtn {
+    background-color: rgb(48, 49, 52);
+    color: rgb(232, 234, 237);
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 27px;
+    border: none;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+.iflBtn {
+    background-color: rgb(48, 49, 52);
+    color: rgb(232, 234, 237);
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 27px;
+    border: none;
+    font-size: 14px;
+    border-radius: 3px;cursor: pointer;
+}
+.language {
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(177, 175, 175);
+    font-size: 12px;
+}
+span {
+    cursor: pointer;
+    margin-left: 4px;
+    color: rgb(122, 172, 219);
+}
+span:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(23, 23, 23);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(189, 193, 198);
+    display: block;
+    flex-shrink: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 94px;
+    width: 818px;
+    align-self: flex-end;
+}
+
+.location {
+    border-bottom-color: rgb(60, 64, 67);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: rgb(232, 234, 237);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    height: 17px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    width: 758px;
+}
+.foot {
+    color: rgb(189, 193, 198);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height :46px;
+    justify-content :space-evenly;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    width :778px;
+}
+.fspan {
+    cursor: pointer;
+    color: rgb(189, 193, 198);
+    margin-right: 10px;
+    text-align: left;
+}
